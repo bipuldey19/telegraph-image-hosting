@@ -1515,3 +1515,22 @@ body {
 .tab-pane fieldset {
     border-top: none;
 }
+
+/* CUSTOM */
+
+* {
+	font-family: 'Outfit', sans-serif !important;
+}
+
+nav.text-center {
+    height: 2rem;
+}
+
+nav img {
+    vertical-align: middle;
+    border-style: none;
+    height: 12rem;
+    position: relative;
+    top: -55px;
+}
+
