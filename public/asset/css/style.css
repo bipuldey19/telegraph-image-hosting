@@ -1576,11 +1576,15 @@ nav img {
 
 .krajee-default.file-preview-frame .kv-file-content {
     margin: auto !important;
-    height: 240px !important;
+    /* height: 240px !important; */
+    height: 20rem !important;
     width: 100% !important;
 }
 
 img.file-preview-image.kv-preview-data {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
     border-radius: 15px !important;
     -webkit-border-radius: 15px !important;
     -moz-border-radius: 15px !important;
@@ -1588,3 +1592,15 @@ img.file-preview-image.kv-preview-data {
     -o-border-radius: 15px !important;
 }
 
+.nav-tabs .nav-link {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+fieldset {
+    border-radius: 0 0 15px 15px !important;
+    -webkit-border-radius: 0 0 15px 15px !important;
+    -moz-border-radius: 0 0 15px 15px !important;
+    -ms-border-radius: 0 0 15px 15px !important;
+    -o-border-radius: 0 0 15px 15px !important;
+}
