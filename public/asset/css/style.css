@@ -1532,3 +1532,43 @@ nav img {
     top: -55px;
 }
 
+@media (max-width: 767px) {
+    .file-preview-thumbnails {
+        justify-content: flex-start;
+    }
+}
+
+.file-preview {
+    border: none;
+    padding: 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.file-drop-zone {
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.file-drop-zone .file-preview-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
+.krajee-default.file-preview-frame {
+    box-shadow: none;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
