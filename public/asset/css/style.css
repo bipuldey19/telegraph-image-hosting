@@ -1604,3 +1604,16 @@ fieldset {
     -ms-border-radius: 0 0 15px 15px !important;
     -o-border-radius: 0 0 15px 15px !important;
 }
+
+.image-code-cover, .image-code-cover img {
+    object-fit: cover !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.table-bordered td, .table-bordered th {
+    border: none !important;
+}
