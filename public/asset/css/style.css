@@ -1646,12 +1646,16 @@ fieldset {
 
 .input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
     cursor: pointer !important;
-    margin: 0 5px 0 0 !important;
+    height: fit-content !important;
     border-radius: 15px !important;
     -webkit-border-radius: 15px !important;
     -moz-border-radius: 15px !important;
     -ms-border-radius: 15px !important;
     -o-border-radius: 15px !important;
+}
+
+button.btn.btn-danger.fileinput-remove.fileinput-remove-button {
+    margin: 0 0.5rem !important;
 }
 
 .btn-file input[type=file] {
