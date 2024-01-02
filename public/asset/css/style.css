@@ -1660,6 +1660,7 @@ fieldset {
 
 .btn.btn-success.btn-file {
     height: fit-content !important;
+    margin-left: 0.5rem !important;
 }
 
 @media (max-width: 767px) {
