@@ -1617,3 +1617,9 @@ fieldset {
 .table-bordered td, .table-bordered th {
     border: none !important;
 }
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
