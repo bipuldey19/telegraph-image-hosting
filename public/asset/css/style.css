@@ -1605,7 +1605,8 @@ fieldset {
     -o-border-radius: 0 0 15px 15px !important;
 }
 
-.image-code-cover, .image-code-cover img {
+.image-code-cover,
+.image-code-cover img {
     object-fit: cover !important;
     border-radius: 15px !important;
     -webkit-border-radius: 15px !important;
@@ -1614,8 +1615,56 @@ fieldset {
     -o-border-radius: 15px !important;
 }
 
-.table-bordered td, .table-bordered th {
+.table-bordered td,
+.table-bordered th {
     border: none !important;
+}
+
+.file-caption .file-caption-name {
+    cursor: pointer !important;
+}
+
+.input-group>.input-group-append>.btn {
+    cursor: pointer !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child) {
+    margin-right: 1rem !important;
+    border-radius: 15px !important;
+    cursor: pointer !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    cursor: pointer !important;
+    margin: 0 5px 0 0 !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.btn-file input[type=file] {
+    cursor: pointer !important;
+}
+
+@media (max-width: 767px) {
+    .input-group>.form-control:not(:last-child) {
+        margin: 0 0 1rem 0 !important;
+        
+    }
+
+
 }
 
 .copyright {
